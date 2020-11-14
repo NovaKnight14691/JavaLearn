@@ -7,7 +7,7 @@ public class Connor {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Input Grade Here:");
+        System.out.println("Input Grade Here! :");
         int g = input.nextInt();
 
 
