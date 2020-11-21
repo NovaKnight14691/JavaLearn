@@ -18,6 +18,7 @@ public class Homework2SquareOrNot{
         System.out.println("Enter length:");
         int x = s.nextInt();
         System.out.println("Enter breadth:");
+
         int y = s.nextInt();
         if(x==y){
             System.out.println("Square");
