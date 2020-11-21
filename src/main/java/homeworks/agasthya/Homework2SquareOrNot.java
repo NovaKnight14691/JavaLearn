@@ -21,6 +21,7 @@ public class Homework2SquareOrNot{
         int y = s.nextInt();
         if(x==y){
             System.out.println("Square");
+
         }
         else{
             System.out.println("Rectangle");
