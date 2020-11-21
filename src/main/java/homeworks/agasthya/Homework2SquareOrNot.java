@@ -32,7 +32,7 @@ public class Homework2SquareOrNot{
 
         x=int(input("Enter your second number :"))
 
-        if x=y:
+        if x==y:
 
         print("Its a square")
 
