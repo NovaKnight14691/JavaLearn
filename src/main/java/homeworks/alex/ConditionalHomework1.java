@@ -2,7 +2,7 @@ package homeworks.alex;
 
 import java.util.Scanner;
 
-public class Homework1 {
+public class ConditionalHomework1 {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
