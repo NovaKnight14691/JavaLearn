@@ -7,7 +7,7 @@ class Homework2NumbersBackwardsAndForwards{
         System.out.println("Enter the number you want reversed:");
         int x = s.nextInt();
 
-        int first_digit = (x)%10;
+        int first_digit = (x/1)%10;
         int second_digit = (x/10)%10;
         int third_digit = (x/100)%10;
         int fourth_digit = (x/1000)%10;
