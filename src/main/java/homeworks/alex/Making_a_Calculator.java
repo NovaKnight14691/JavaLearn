@@ -11,8 +11,10 @@ public class Making_a_Calculator {
 
         System.out.println("Enter a Number:");
         int num1 = input.nextInt();
+
         System.out.println("Enter Operation");
         operation = input.next().charAt(0);
+
         System.out.println("Enter Another Number:");
         int num2 = input.nextInt();
 
