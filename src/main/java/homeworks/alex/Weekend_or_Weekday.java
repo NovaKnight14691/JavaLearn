@@ -7,33 +7,40 @@ public class Weekend_or_Weekday {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a day of the week:");
-        String day = input.nextLine();
+        System.out.println("Enter a number 1-7:");
+        String num = input.nextLine();
 
-        switch (day) {
-            case "Sunday":
+        switch (num) {
+            case "1":
+                System.out.println("Sunday");
                 System.out.println("Weekend");
                 break;
-            case "Monday":
+            case "2":
+                System.out.println("Monday");
                 System.out.println("Weekday");
                 break;
-            case "Tuesday":
+            case "3":
+                System.out.println("Tuesday");
                 System.out.println("Weekday");
                 break;
-            case "Wednesday":
+            case "4":
+                System.out.println("Wednesday");
                 System.out.println("Weekday");
                 break;
-            case "Thursday":
+            case "5":
+                System.out.println("Thursday");
                 System.out.println("Weekday");
                 break;
-            case "Friday":
+            case "6":
+                System.out.println("Friday");
                 System.out.println("Weekday");
                 break;
-            case "Saturday":
+            case "7":
+                System.out.println("Saturday");
                 System.out.println("Weekend");
-                break;
             default:
-                System.out.println("Invalid answer.");
+                System.out.println("Number is out of requested range.");
+                break;
         }
     }
 }
