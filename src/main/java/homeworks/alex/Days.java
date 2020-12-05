@@ -34,7 +34,6 @@ public class Days {
             default:
                 System.out.println("Number is out of requested range.");
                 break;
-
         }
     }
 }
