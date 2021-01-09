@@ -13,6 +13,7 @@ public class Robot {
     private int chassis;
     private int distance;
 
+
     /**
      * Below are the constructors.  The constructors help us make instances of a class data type.
      * The first constructor listed is the default constructor because as the name suggests it sets
